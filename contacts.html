@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My second webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--body on webpage-->
@@ -15,22 +16,22 @@
         <nav>
         <a href="index.html">Webpage</a>
         <a href="about.html">About me</a>
-        <a href="hobby.html">my hobbys</a>
-        <a class = "active" href="contacts">contacts</a> 
+        <a href="hobbys.html">my hobbys</a>
+        <a class = "active" href="contacts.html">contacts</a> 
     </nav>
     </header>
     <main>
 <!--header content -->
 <h1>My contacts</h1>
 <form >
-    <label for="name">Name:</label>
-    <input class="my-form" type="text" id="name" name="name"><br>
+    <label for="name">Name:</label><br>
+    <input class="my-form" type="text" id="name" name="name" placeholder="My name" required><br>
 
-    <label for="emailD">Email:</label>
-    <input type="My-form" type="email" id="email" name="email"><br>
+    <label for="emailD">Email:</label><br>
+    <input class="my-form" type="email" id="email" name="email" placeholder="your e-post" required><br>
 
-    <label for="message">Message</label>
-    <textarea class="my-form" id="message" name="message"></textarea><br>
+    <label for="message">Message</label><br>
+    <textarea class="my-form" id="message" name="message" placeholder="your message" required></textarea><br>
 
     <input type="submit" value="send"><br>
 </form>
